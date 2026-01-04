@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initAdmin()">
+<h2>Admin Master Dashboard</h2>
+<div class="card">
+<b>Total Matches:</b> <span id="totalMatches">0</span><br>
+<b>Total Users:</b> <span id="totalUsers">0</span>
+</div>
+<button onclick="verifyLastMatch()">Approve Last Match</button>
+<a href="dashboard.html">Back</a>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

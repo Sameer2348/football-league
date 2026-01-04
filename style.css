@@ -1,0 +1,9 @@
+body{background:#0b1220;color:#fff;font-family:Arial;padding:15px}
+h1,h2{text-align:center}
+button{width:100%;padding:14px;margin:8px 0;border:none;border-radius:12px;background:#1f8cff;color:#fff;font-size:16px}
+.card{background:#111;padding:15px;border-radius:14px;margin:10px 0}
+a{color:#4fc3f7;text-decoration:none}
+.player-card{width:220px;margin:auto;padding:15px;border-radius:18px;background:linear-gradient(145deg,#1f8cff,#0b1220);text-align:center}
+.player-card .ovr{font-size:42px;font-weight:bold}
+.player-card .name{font-size:22px;margin:5px 0}
+.player-card .stats span{display:block;font-size:14px}

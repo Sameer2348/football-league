@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initDashboard()">
+<h2 id="roleText"></h2>
+<button onclick="createMatch()">Create Match</button>
+<button onclick="finishMatch()">Finish Match</button>
+<div id="matches"></div>
+<a href="wallet.html">Wallet</a><br><br>
+<button onclick="logout()">Logout</button>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
